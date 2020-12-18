@@ -1,0 +1,35 @@
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: sans-serif;
+  margin : 0; /* The space you will see on the text project starter is due to h1 */
+  display: flex; /* Center everything and put it in row */
+  align-items: center; /* Since it is column. The align-items will align vertically */
+  justify-content: center; /*horizontal align*/
+  height: 100vh;
+  overflow: hidden;
+
+}
+
+.bg{
+  background: url('https://source.unsplash.com/daily') no-repeat center center/cover; /*Center center for x and y axis*/
+  position: relative; 
+  width:100vw;
+  height:100vh;
+  left: 0px;
+  top: 0px;
+  filter: blur(0px);
+  z-index: -1;
+}
+
+.loading-text{
+  font-size: 50px;
+  position: absolute;
+  color: #ffffff;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+}
